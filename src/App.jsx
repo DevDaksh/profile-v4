@@ -1,35 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header'
 
 function App() {
-  // Create the count state.
-  const [count, setCount] = useState(0);
-  // Create the counter (+1 every second).
-  useEffect(() => {
-    const timer = setTimeout(() => setCount(count + 1), 1000);
-    return () => clearTimeout(timer);
-  }, [count, setCount]);
-  // Return the App component.
+
   return (
-    <div className="App">
+    <div className="App bg-black border-4 border-yellow-400">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <Header />
+        <p className='text-lg textIntro text-gray-400'>
+          Hello, it's Daksh here, welcome to my digital space. I am a full stack dev and I specialise in frontend. I love minimal and responsive sites. Contact me with any of the means above. I have a good knowledge of ReactJS and Express. I also love learning new things. I have basic knowledge of Python too.
         </p>
       </header>
     </div>
