@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,33 +7,60 @@
 }
 
 .App-header {
-  /* background-color: #E6EBE; */
+  background-color: #1e2333;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: 2rem;
   color: #2F4858;
 }
 
-
-hr {
-  min-width: 80vw;
-  margin: 1rem 0 1rem 0;
+.background-container {
+  /* position: absolute; */
+  height: 30pc;
+  width: 100%;
 }
 
-.textIntro {
-  margin: 2rem 7.8rem!important;
+.background-container .background, .background-container .background-shade{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    width: 100%;
-    
-  }
-  .links {
-    width: 100vw;
-    margin: 0 1rem;
-  }
+.background-shade {
+  height: 30pc;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(30, 35, 51, 0) 60%, #1E2333 100%);
+}
+
+.background {
+  height: 30pc;
+  width: 100%;
+  background: url(./assets/bg.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.header {
+  font-family: 'Nerko One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 0 0;
+  font-size: 2rem;
+  color:whitesmoke;
+  flex-direction: column;
+}
+
+.header img {
+  height: 30vh;
+  width: 15vw;
+  border-radius: 50%;
+  border: darkgrey 5px solid;
+  margin: 1rem ;
 }
