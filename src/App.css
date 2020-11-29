@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&Source+Code+Pro&family=Texturina&display=swap');
 
 *{
   margin: 0;
@@ -18,7 +18,6 @@
 }
 
 .background-container {
-  /* position: absolute; */
   height: 30pc;
   width: 100%;
 }
@@ -57,10 +56,22 @@
   flex-direction: column;
 }
 
-.header img {
+.mesa {
   height: 30vh;
   width: 15vw;
   border-radius: 50%;
   border: darkgrey 5px solid;
   margin: 1rem ;
+}
+
+.bio {
+  font-family: 'Texturina', serif;
+  margin: 0.8rem 0rem 0rem 0rem ;
+  font-size: 1rem;
+}
+
+.links img{
+  margin: 1rem 1rem 0rem 1rem;
+  height: 30px;
+  width: 30px;
 }
