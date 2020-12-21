@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&Source+Code+Pro&family=Texturina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&Source+Code+Pro&family=Texturina?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
 
 *{
   margin: 0;
@@ -8,7 +13,7 @@
 
 .App-header {
   background-color: #1e2333;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -65,13 +70,42 @@
 }
 
 .bio {
-  font-family: 'Texturina', serif;
+  font-family: 'Rubik', sans-serif;
   margin: 0.8rem 0rem 0rem 0rem ;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  color: whitesmoke;
 }
 
 .links img{
   margin: 1rem 1rem 0rem 1rem;
   height: 30px;
   width: 30px;
+}
+
+.typog {
+  color: #A2A79E;
+  text-decoration: underline 3px solid yellow;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.bioComp {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.bioComp {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.head-bio {
+  font-family: 'Andika New Basic', sans-serif;
+  margin: 0.8rem 0rem 0rem 0rem ;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.name {
+  font-family: 'Ubuntu', sans-serif;
 }

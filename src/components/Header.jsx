@@ -13,8 +13,10 @@ export default function Header() {
             </div>
             <div className="header">
                 <img src='./assets/mesa.jpg' className='mesa' alt="Mesa Mesa" />
-                Daksh Kulshrestha
-                <span className="bio">
+                <span className="name">
+                    Daksh Kulshrestha
+                </span>
+                <span className="head-bio">
                     Full Stack Web Engineer
                 </span>
                 <div className="links">
